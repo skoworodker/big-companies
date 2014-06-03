@@ -1,0 +1,46 @@
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="skoworodker@xakep.ru" version="1">
+<!--man pages https://josm.openstreetmap.de/wiki/TaggingPresets-->
+ <group name="Компании">
+   
+   <item name="Магнит">
+    <label text="Магазин Магнит" />
+    <combo key="name" text="Тип" values="Магинт,Магнит косметик" default="Магинт" />
+    <combo key="shop" text="Тип" values="supermarket,chemist" default="supermarket" />
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо о магазине" href="http://www.magnit-info.ru/buyers/adds/"/>
+    <key key="website" value="http://www.magnit-info.ru/" />
+    <key key="email" value="info@gw.tander.ru" />
+    <key key="phone" value="8-800-200-90-02" />
+    <key key="wikipedia" value="ru:Магнит (сеть магазинов)" />
+   </item>
+
+   <item name="Почта">
+    <label text="Почта" />
+    <key key="website" value="http://russianpost.ru/" />
+    <text key="name" text="Название" default="Почта" />
+    <text key="phone" text="Телефон" />
+    <text key="ref" text="ref" />
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо об отделении почты" href="http://www.russianpost.ru/rp/servise/ru/home/postuslug/searchops1"/>
+    <key key="wikipedia" value="RU:Почта России" />
+    <key key="operator" value="Почта России" />
+    <key key="amenity" value="post_office" />
+   </item>
+
+   <item name="Сбербанк">
+    <label text="Сбербанк" />
+    <key key="amenity" value="bank" />
+    <text key="name" text="Название" default="Сбербанк" />
+    <key key="operator" value="Сбербанк России" />
+    <key key="branch" value="Среднерусский банк" />
+    <key key="website" value="http://sbrf.ru/" />
+    <text key="phone" text="Телефон" />
+    <text key="ref" text="ref" />
+    <key key="wikipedia" value="ru:Сбербанк России" />
+    <check key="atm" text="atm" default="no"/>
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо об отделении банка" href="http://www.sberbank.ru/tula/ru/about/today/oib/"/>
+   </item>
+
+ </group>
+</presets>
