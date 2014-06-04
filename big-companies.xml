@@ -1,7 +1,8 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="skoworodker@xakep.ru" version="1">
 <!--man pages https://josm.openstreetmap.de/wiki/TaggingPresets-->
  <group name="Компании">
-   
+  <group name="Продовольственные"> 
+
    <item name="Магнит">
     <label text="Магазин Магнит" />
     <combo key="name" text="Тип" values="Магинт,Магнит косметик" default="Магинт" />
@@ -13,6 +14,8 @@
     <key key="phone" value="8-800-200-90-02" />
     <key key="wikipedia" value="ru:Магнит (сеть магазинов)" />
    </item>
+
+  </group>
 
    <item name="Почта">
     <label text="Почта" />
@@ -26,7 +29,8 @@
     <key key="operator" value="Почта России" />
     <key key="amenity" value="post_office" />
    </item>
-
+  
+  <group name="Банки"> 
    <item name="Сбербанк">
     <label text="Сбербанк" />
     <key key="amenity" value="bank" />
@@ -41,6 +45,20 @@
     <label text="Не забудь добавить время работы!!" />
     <link text="Найти инфо об отделении банка" href="http://www.sberbank.ru/tula/ru/about/today/oib/"/>
    </item>
+  
+  </group>
+
+  <group name="АЗС/АГЗС"> 
+
+  </group>
+
+  <group name="Аптеки"> 
+
+  </group>
+
+  <group name="Связь"> 
+
+  </group>
 
  </group>
 </presets>
