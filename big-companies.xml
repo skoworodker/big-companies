@@ -5,7 +5,7 @@
 
    <item name="Магнит">
     <label text="Магазин Магнит" />
-    <combo key="name" text="Тип" values="Магнит,Магнит косметик" default="Магинт" />
+    <combo key="name" text="Тип" values="Магнит,Магнит косметик" default="Магнит" />
     <combo key="shop" text="Тип" values="supermarket,chemist" default="supermarket" />
     <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
     <label text="Не забудь добавить время работы!!" />
@@ -117,6 +117,7 @@
     <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
     <check key="dispensing" text="Отпуск по рецептам" default="off"/>
     <label text="Не забудь добавить время работы!" />
+    <key key="operator" value="ООО Фармоптрос" />
    </item>
 
    <item name="Мэтр">
