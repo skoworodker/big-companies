@@ -7,13 +7,69 @@
     <label text="Магазин Магнит" />
     <combo key="name" text="Тип" values="Магнит,Магнит косметик" default="Магинт" />
     <combo key="shop" text="Тип" values="supermarket,chemist" default="supermarket" />
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
     <label text="Не забудь добавить время работы!!" />
     <link text="Найти инфо о магазине" href="http://www.magnit-info.ru/buyers/adds/"/>
+    <text key="ref" text="Название магазина с чека (не магнит!)" />
     <key key="website" value="http://www.magnit-info.ru/" />
     <key key="email" value="info@gw.tander.ru" />
     <key key="phone" value="8-800-200-90-02" />
     <key key="wikipedia" value="ru:Магнит (сеть магазинов)" />
     <key key="operator" value="ЗАО Тандер" />
+   </item>
+
+   <item name="Карусель">
+    <label text="Магазин Карусель" />
+    <key key="name" value="Карусель" />
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо о магазине" href="http://www.karusel.ru/#shops" />
+    <key key="shop" value="supermarket" />
+    <key key="website" value="http://www.karusel.ru/" />
+    <key key="email" value="info@x5.ru" />
+    <key key="phone" value="+7-800-200-56-65" />
+    <key key="wikipedia" value="ru:Карусель (сеть магазинов)" />
+    <key key="operator" value="X5 Retail Group" />
+   </item>
+
+   <item name="Пятёрочка">
+    <label text="Магазин Пятёрочка" />
+    <key key="name" value="Пятёрочка" />
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо о магазине" href="http://pyaterochka.ru/msk/shops/" />
+    <key key="shop" value="supermarket" />
+    <key key="website" value="http://pyaterochka.ru/" />
+    <key key="email" value="info@x5.ru" />
+    <key key="phone" value="+7-800-555-55-05" />
+    <key key="wikipedia" value="ru:Пятёрочка (сеть магазинов)" />
+    <key key="operator" value="X5 Retail Group" />
+   </item>
+
+   <item name="Перекрёсток">
+    <label text="Магазин Перекрёсток" />
+    <key key="name" value="Перекрёсток" />
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо о магазине" href="http://www.perekrestok.ru/shops/" />
+    <key key="shop" value="supermarket" />
+    <key key="website" value="http://www.perekrestok.ru/" />
+    <key key="email" value="info@x5.ru" />
+    <key key="phone" value="+7-800-200-95-55" />
+    <key key="wikipedia" value="ru:Перекрёсток (сеть магазинов)" />
+    <key key="operator" value="X5 Retail Group" />
+   </item>
+
+   <item name="Дикси">
+    <label text="Магазин Дикси" />
+    <key key="name" value="Дикси" />
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо о магазине" href="http://dixy.ru/shops" />
+    <key key="shop" value="supermarket" />
+    <key key="website" value="http://dixy.ru/" />
+    <key key="phone" value="+7-800-333-02-01" />
+    <key key="wikipedia" value="ru:Дикси (сеть магазинов)" />
    </item>
 
   </group>
@@ -49,11 +105,35 @@
     <key key="amenity" value="post_office" />
    </item>
 
-<!--  <group name="АЗС/АГЗС"> 
+  <group name="Аптеки"> 
+
+   <item name="Твой Доктор">
+    <label text="Твой Доктор" />
+    <key key="name" value="Твой Доктор" />
+    <key key="amenity" value="pharmacy" />
+    <text key="phone" text="телефон" default="" />
+    <key key="website" value="http://www.tvojdoktor.ru/" />
+    <link text="Найти инфо о аптеке" href="http://www.tvojdoktor.ru/"/>
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
+    <check key="dispensing" text="Отпуск по рецептам" default="off"/>
+    <label text="Не забудь добавить время работы!" />
+   </item>
+
+   <item name="Мэтр">
+    <key key="name" value="Мэтр" />
+    <label text="Аптека Мэтр" />
+    <key key="amenity" value="pharmacy" />
+    <text key="phone" text="Телефон" default="" />
+    <key key="website" value="http://www.metrs.ru/" />
+    <check key="payment:debit_cards" text="Оплата банковской картой" default="off"/>
+    <check key="dispensing" text="Отпуск по рецептам" default="off"/>
+    <label text="Не забудь добавить время работы!" />
+    <link text="Найти инфо о аптеке" href="http://www.metrs.ru/"/>
+   </item>
 
   </group>
 
-  <group name="Аптеки"> 
+<!--  <group name="АЗС/АГЗС"> 
 
   </group>
 
