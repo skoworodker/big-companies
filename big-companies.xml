@@ -5,7 +5,7 @@
 
    <item name="Магнит">
     <label text="Магазин Магнит" />
-    <combo key="name" text="Тип" values="Магинт,Магнит косметик" default="Магинт" />
+    <combo key="name" text="Тип" values="Магнит,Магнит косметик" default="Магинт" />
     <combo key="shop" text="Тип" values="supermarket,chemist" default="supermarket" />
     <label text="Не забудь добавить время работы!!" />
     <link text="Найти инфо о магазине" href="http://www.magnit-info.ru/buyers/adds/"/>
@@ -13,8 +13,27 @@
     <key key="email" value="info@gw.tander.ru" />
     <key key="phone" value="8-800-200-90-02" />
     <key key="wikipedia" value="ru:Магнит (сеть магазинов)" />
+    <key key="operator" value="ЗАО Тандер" />
    </item>
 
+  </group>
+  
+  <group name="Банки"> 
+   <item name="Сбербанк">
+    <label text="Сбербанк" />
+    <key key="amenity" value="bank" />
+    <text key="name" text="Название" default="Сбербанк" />
+    <key key="operator" value="Сбербанк России" />
+    <key key="branch" value="Среднерусский банк" />
+    <key key="website" value="http://sbrf.ru/" />
+    <text key="phone" text="Телефон" />
+    <text key="ref" text="ref" />
+    <key key="wikipedia" value="ru:Сбербанк России" />
+    <check key="atm" text="atm" default="off"/>
+    <label text="Не забудь добавить время работы!!" />
+    <link text="Найти инфо об отделении банка" href="http://www.sberbank.ru/tula/ru/about/today/oib/"/>
+   </item>
+  
   </group>
 
    <item name="Почта">
@@ -29,26 +48,8 @@
     <key key="operator" value="Почта России" />
     <key key="amenity" value="post_office" />
    </item>
-  
-  <group name="Банки"> 
-   <item name="Сбербанк">
-    <label text="Сбербанк" />
-    <key key="amenity" value="bank" />
-    <text key="name" text="Название" default="Сбербанк" />
-    <key key="operator" value="Сбербанк России" />
-    <key key="branch" value="Среднерусский банк" />
-    <key key="website" value="http://sbrf.ru/" />
-    <text key="phone" text="Телефон" />
-    <text key="ref" text="ref" />
-    <key key="wikipedia" value="ru:Сбербанк России" />
-    <check key="atm" text="atm" default="no"/>
-    <label text="Не забудь добавить время работы!!" />
-    <link text="Найти инфо об отделении банка" href="http://www.sberbank.ru/tula/ru/about/today/oib/"/>
-   </item>
-  
-  </group>
 
-  <group name="АЗС/АГЗС"> 
+<!--  <group name="АЗС/АГЗС"> 
 
   </group>
 
@@ -58,7 +59,7 @@
 
   <group name="Связь"> 
 
-  </group>
+  </group> -->
 
  </group>
 </presets>
